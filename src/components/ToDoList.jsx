@@ -88,7 +88,7 @@ export default function ToDoList() {
         <label className="checkbox-label">
           <input
             type="checkbox"
-            checked={autoCompleteRequested ? true : false}
+            checked={item.complete}
             name={item.id}
             onChange={handleCheckBoxChange}
           />
